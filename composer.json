@@ -1,0 +1,22 @@
+{
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "App",
+            "Classes\\": "App/classes",
+            "Btns\\": "App/btns",
+            "Config\\": "config"
+        },
+        "files": [
+            "App/Helpers/functions.php",
+            "App/keyboard.php",
+            "config/config.php"
+        ]
+    },
+
+    "require": {
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
